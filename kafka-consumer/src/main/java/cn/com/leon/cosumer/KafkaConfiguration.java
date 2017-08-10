@@ -1,4 +1,4 @@
-package cn.com.leon.kafka;
+package cn.com.leon.cosumer;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.annotation.EnableKafka;

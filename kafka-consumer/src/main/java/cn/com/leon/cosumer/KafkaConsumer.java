@@ -1,4 +1,4 @@
-package cn.com.leon.kafka;
+package cn.com.leon.cosumer;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class KafkaConsumer {
 
-    @KafkaListener(topics = {"topic1","topic2"})
+    @KafkaListener(topics = {"test"})
     public void showContent(String content){
         System.out.println(content);
     }
